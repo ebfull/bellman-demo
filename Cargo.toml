@@ -4,6 +4,9 @@ version = "0.1.0"
 authors = ["sean"]
 
 [dependencies]
-pairing = "0.14"
 bellman = "0.1"
 rand = "0.4"
+
+[dependencies.pairing]
+version = "0.14"
+features = ["u128-support"]
