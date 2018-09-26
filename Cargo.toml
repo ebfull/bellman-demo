@@ -1,0 +1,9 @@
+[package]
+name = "bellman-demo"
+version = "0.1.0"
+authors = ["sean"]
+
+[dependencies]
+pairing = "0.14"
+bellman = "0.1"
+rand = "0.4"
